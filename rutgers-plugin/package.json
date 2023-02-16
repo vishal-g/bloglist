@@ -1,0 +1,23 @@
+{
+  "name": "rutgers-plugin",
+  "version": "1.0.0",
+  "description": "Rutgers Plugin",
+  "main": "index.js",
+  "author": "Tapping Bones",
+  "author_uri": "https://tappingbones.com/",
+  "text_domain": "tbones-p",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^25.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.2",
+    "swiper": "^8.4.7"
+  }
+}
