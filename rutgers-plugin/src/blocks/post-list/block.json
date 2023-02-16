@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "tbones-p/post-list",
+  "title": "Post List",
+  "category": "text",
+  "description": "List of posts based on filters",
+  "textdomain": "tbones-p",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Post List"
+    },
+    "hidetitle": {
+      "type": "boolean",
+      "default": false
+    },
+    "count": {
+      "type": "number",
+      "default": 3
+    },
+    "tags": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css"
+}
